@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>first website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+<section class="sub-header">
+  <nav>
+    <a href="index.html"><img src="logo.png"</a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="course.html">COURSE</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+
+      </ul>
+
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+
+  </nav>
+  <h1>Our Certificate & Online Programs for 2021</h1>
+  </section>
+<section class="blogg-content">
+  <div class="row">
+    <div class="blog-left">
+<img src="certificate.jpg" alt="">
+<h2>Our Certificate & Online Programs for 2021</h2>
+<p>Certification Course helps an individual to showcase his competency, commitment for the profession,
+  build expertise in his professional subject area, and helps with job advancement.
+  It is a designation earned by a person giving a kind of assurance to the company of his competencies of performing a job.</p>
+  <br>
+  <p>Certificate courses in IT are useful for students who are planning to choose IT as the career option.
+     These courses give basic knowledge on various subjects that help students to opt for higher courses in the same or related fields.
+     These courses are also preferred for career enhancement purposes.</p>
+     <div class="comment-box">
+       <h3>leave a comment</h3>
+       <form class="comment-form">
+         <input type="text" placeholder="Enter Name">
+         <input type="text" placeholder="Enter Email">
+         <textarea rows="5" placeholder="Your Comment"></textarea>
+         <button type="submit" class="hero-btn red-btn">Post Comment</button>
+
+       </form>
+
+     </div>
+    </div>
+    <div class="blog-right">
+<h3>Post Categories</h3>
+<div>
+<span>Data Science</span>
+<span>34</span>
+</div>
+
+<div>
+<span>Machine Learning</span>
+<span>21</span>
+</div>
+
+<div>
+<span>Jquery</span>
+<span>28</span>
+</div>
+
+<div>
+<span>JavaScript</span>
+<span>15</span>
+</div>
+
+    </div>
+  </div>
+</section>
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Loren ipsum dolor sit amet, consectetur adipiscing elite.
+    Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+
+    <i class="fa fa-instagram"></i>
+
+    <i class="fa fa-linkedin"></i>
+
+
+  </div>
+  </section>
+  <!-------JavaScript-------- -->
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-200px"
+    }
+  </script>
+   </body>
+  </html>
